@@ -2,13 +2,14 @@
 var emailAutorizzate = [ "alessio@boolean.it", "chiara@boolean.it", "clelia@boolean.it", "margherita@boolean.it", "marta@boolean.it", "samuele@boolean.it", "valeria@boolean.it", "veronica@boolean.it" ],
 // Dichiarazione variabili
 userEmail = prompt("Inserisci la tua e-mail").toLowerCase(),
-autorizzazione = false;
+autorizzazione = false,
+i;
 
 // Ciclo che verifica se userEmail corrisponde ad una delle email autorizzate e in tal caso restituisce "autorizzazione = true"
-for ( var i = 0; i < emailAutorizzate.lenght; i++ ); {
+for ( i = 0; i < emailAutorizzate.length; i++ ) {
   if ( emailAutorizzate[i] == userEmail ) {
     autorizzazione = true;
-    i = emailAutorizzate.lenght;
+    i = emailAutorizzate.length;
   }
 }
 
