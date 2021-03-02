@@ -26,11 +26,11 @@ if ( autorizzazione == true ) {
 // userEmail = prompt("Inserisci la tua e-mail").toLowerCase();
 //
 // // Ciclo e messaggio output
-// for ( var i = 0; i < emailAutorizzate.lenght; i++ ); {
+// for ( var i = 0; i < emailAutorizzate.length; i++ ) {
 //   if ( emailAutorizzate[i] == userEmail ) {
-//     i = emailAutorizzate.lenght;
+//     i = emailAutorizzate.length;
 //     alert("L' email ha l' autorizzazione ad accedere");
-//   } else if ( i = emailAutorizzate.lenght ) {
+//   } else if ( i = emailAutorizzate.length ) {
 //     alert("L' email non ha l' autorizzazione ad accedere");
 //   }
 // }
